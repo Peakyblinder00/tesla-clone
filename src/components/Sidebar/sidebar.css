@@ -1,0 +1,80 @@
+.side-bar{
+    width: 300px;
+    height: 100vh;
+    background-color: #ffffff;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    transition: .7s ease-in-out;
+    right: -200px;
+    transition-delay: .3s;
+    padding: 0px 20px 10px 20px;
+    overflow-y: auto;
+}
+.cancel-btn-wrapper{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+.cancel-btn-box{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: grid;
+    backdrop-filter: blur(10px);
+    place-items: center;
+    cursor: pointer;
+    transition: .5s;
+}
+.cancel-btn-box:hover{
+    background-color: #f1f1f1;
+}
+.cancel-btn-box svg{
+    font-size: 18px;
+}
+.menu-collection{
+    list-style-type: none;
+    color: #393c41;
+    font-size: 14.534673px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+.menu-collection li{
+    width: 100%;
+    padding: 7px 20px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+.menu-collection li:hover{
+    background-color: hsla(0, 0%, 0%, .05);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+}
+.item-menu-added{
+    color: #393c41;
+    font-size: 14.534673px;
+    font-weight: 600;
+    text-decoration: none;
+    width: 100%;
+    padding: 7px 20px;
+    margin: 10px 0px;
+    display: none;
+    cursor: pointer;
+}
+.item-menu-added:hover{
+    background-color: hsla(0, 0%, 0%, .05);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1200px){
+    .item-menu-added{
+        display: block;
+    }
+}

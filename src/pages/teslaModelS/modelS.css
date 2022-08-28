@@ -1,0 +1,1164 @@
+.modelS {
+    width: 100%;
+    height: auto;
+}
+
+.modelS-page {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 100px 0px 0px 0px;
+    align-items: center;
+    background-size: cover;
+    background-image: url("../../images/modelSimages/Model-S-Main-Hero-Desktop-LHD.jpg");
+}
+
+.features-box {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.box-div1,
+.box-div2,
+.box-div3,
+.box-div4 {
+    display: grid;
+    place-items: center;
+    transition: .2s ease-out;
+    opacity: 0;
+}
+
+.car-model-wrapper {
+    display: grid;
+    place-items: center;
+    transform: translateY(40px);
+}
+
+.features-of-car {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.order-now-btn {
+    width: 200px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    color: rgb(244, 244, 244);
+    border: 3px solid rgb(244, 244, 244);
+    background-color: transparent;
+    transition: .2s ease-out;
+    opacity: 0;
+}
+
+.order-now-btn:hover {
+    background-color: rgb(244, 244, 244);
+    color: #343434;
+}
+
+.bottom-feature {
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.page-model {
+    font-size: 40px;
+    color: #171a20;
+    opacity: 0;
+    transition: ease-out;
+    font-weight: 500;
+    text-shadow: 0px 0px 1px black;
+}
+
+.page-model-feature {
+    font-size: 17px;
+    color: #171a20;
+    opacity: 0;
+    font-weight: 400;
+    transition: ease-out;
+    margin-top: 10px;
+    text-shadow: 0px 0px 1px black;
+}
+
+.modelS-body-page {
+    height: 150px;
+    background-color: #000;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.modelS-body-page::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    left: 0;
+    height: 20px;
+    background-color: #000;
+    box-shadow: 0px -5px 40px 20px #000;
+}
+
+.modelS-body-page::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -5px;
+    height: 20px;
+    background-color: #000;
+    box-shadow: 0px 15px 40px 30px #000;
+}
+
+.future-interior {
+    font-size: 28px;
+    font-weight: 500;
+    color: #fff;
+    opacity: 1;
+    transition: .3s ease-out;
+    transform: translateY(-30px);
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.397);
+}
+
+.modelS-body-page2 {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-image: url("../../images/modelSimages/MS-Interior-Hero-Desktop\ \(1\).jpg");
+}
+
+.modelS-body-page3 {
+    width: 100%;
+    height: 160vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-box {
+    width: 80%;
+    height: 300px;
+    display: flex;
+}
+
+.left-side {
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+    transform: translateY(50px);
+    scroll-behavior: smooth;
+    transition: .6s ease-out;
+    opacity: 0;
+    background-image: url("../../images/modelSimages/MS-Interior-Grid-A-Desktop.jpg");
+}
+
+.right-side {
+    width: 50%;
+    height: 300px;
+    padding: 0px 50px;
+    transform: translateY(40px);
+    transition: .5s ease-out;
+    display: flex;
+    scroll-behavior: smooth;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-side2 {
+    width: 50%;
+    height: 300px;
+    opacity: 0;
+    transition: .6s ease-out;
+    transform: translateY(50px);
+    scroll-behavior: smooth;
+}
+
+.right-side2 video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.left-side2 {
+    width: 50%;
+    height: 300px;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    opacity: 0;
+    justify-content: center;
+    transform: translateY(40px);
+    transition: .5s ease-out;
+}
+
+.left-side3 {
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    transition: .6s ease-out;
+    opacity: 0;
+    scroll-behavior: smooth;
+    transform: translateY(50px);
+    background-image: url("../../images/modelSimages/MS-Interior-Grid-D-Desktop.jpg");
+}
+
+.right-side3 {
+    width: 50%;
+    height: 300px;
+    padding: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(40px);
+    justify-content: center;
+    scroll-behavior: smooth;
+    opacity: 0;
+    transition: .5s ease-out;
+}
+
+.card-inner-th {
+    color: rgba(235, 235, 235, 0.918);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card-inner-text {
+    color: rgba(235, 235, 235, 0.918);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.modelS-body-page4 {
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    scroll-behavior: smooth;
+    border-top: 1px solid rgb(180, 180, 180);
+    background-image: url("../../images/modelSimages/Model-S-Performance-Hero-Desktop-LHD.jpg");
+}
+
+.peakPower-of-modelS {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modelS-body-page5 {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.advertisment-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advertisment-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.how-appearence {
+    font-size: 17px;
+    color: #171a20;
+    font-weight: 400;
+    transition: .3s ease-out;
+    opacity: 0;
+}
+
+.advertisment-text {
+    width: 60%;
+    /* opacity: 0; */
+    transition: .3s ease-out;
+    scroll-behavior: smooth;
+
+}
+
+.how-type {
+    font-size: 28px;
+    font-weight: 600;
+    scroll-behavior: smooth;
+    color: #171a20;
+    transition: .3s ease-out;
+    opacity: 0;
+}
+
+.adds-text-des {
+    font-size: 14.343434px;
+    color: #181a1d;
+    font-weight: 400;
+}
+
+.order-btn03 {
+    width: 200px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    color: #171a20;
+    border: 3px solid #171a20;
+    background-color: transparent;
+    transition: .2s ease-out;
+    opacity: 0;
+}
+
+.order-btn03:hover {
+    background-color: #171a20;
+    color: #fff;
+}
+
+.modelS-body-page6 {
+    width: 100%;
+    height: 200vh;
+    background-color: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-wrapper {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modelS-page-text-text {
+    width: 80%;
+    padding-right: 250px;
+}
+
+.electric-power {
+    font-size: 28px;
+    font-weight: 600;
+    scroll-behavior: smooth;
+    color: #171a20;
+    transition: .3s ease-out;
+}
+
+.powertrain-text {
+    font-size: 14.343434px;
+    color: #181a1d;
+    font-weight: 400;
+}
+
+.engine-carousel {
+    width: 100%;
+    height: 600px;
+}
+
+.mySwiper {
+    width: 100%;
+    height: 100%;
+}
+
+.image-swiper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.image-swiper img {
+    width: 120%;
+    height: 120%;
+    object-fit: contain;
+}
+
+.engine-description-btn {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.engine-description-box-left,
+.engine-description-box-right {
+    width: 49%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+}
+
+.featuresOf-car-modelS {
+    display: flex;
+    margin-top: 30px;
+}
+
+.text-wrapper-box {
+    margin-right: 20px;
+}
+
+.type-of-modelS {
+    font-size: 17px;
+    font-weight: 600;
+    color: #A2A3A6;
+    margin-top: 20px;
+}
+
+.explanation-of-modelS {
+    font-size: 14.343434px;
+    color: #A2A3A6;
+    font-weight: 400;
+}
+
+.efficiency-fea {
+    font-size: 23px;
+    font-weight: 600;
+    color: #A2A3A6;
+}
+
+.description-features {
+    font-size: 12px;
+    color: #A2A3A6;
+    font-weight: 500;
+}
+
+.line-line {
+    width: 100%;
+    height: 2px;
+    background-color: #A2A3A6;
+    position: absolute;
+}
+
+.bottom-des-text1 {
+    font-size: 12px;
+    color: #5c5c5c;
+    font-weight: 500;
+    transition: .4s ease-out;
+    opacity: 0;
+}
+
+.videocarousel-text {
+    color: #fff;
+}
+
+.video-carousel-modelS {
+    width: 100%;
+    height: 120vh;
+    display: grid;
+    place-items: center;
+    background-color: #000;
+}
+
+.video-swiper {
+    width: 95%;
+    height: 90vh;
+}
+
+.video-carousel-swiperSlide video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.modelS-body-page7 {
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url("../../images/modelSimages/Model-S-Exterior-Hero-Desktop-Global.jpg");
+}
+
+.modelS-body-page9 {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #000;
+}
+
+.modelS-body-page8 {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #000;
+}
+
+.exterior-design {
+    display: flex;
+    justify-content: center;
+}
+
+.how-appearence2 {
+    font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+    scroll-behavior: smooth;
+    transition: .5s ease-out;
+    opacity: 0;
+}
+
+.how-type2 {
+    font-size: 28px;
+    font-weight: 600;
+    scroll-behavior: smooth;
+    opacity: 0;
+    color: #fff;
+    transition: .5s ease-out;
+}
+
+.order-now-btn02 {
+    width: 200px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    scroll-behavior: smooth;
+    text-transform: uppercase;
+    border: none;
+    color: #fff;
+    opacity: 0;
+    border: 3px solid #fff;
+    background-color: transparent;
+    transition: .5s ease-out;
+}
+
+.adds-text-des02 {
+    font-size: 14.343434px;
+    color: #fff;
+    transition: .5s ease-out;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+.exterior-wrapper-main {
+    width: 80%;
+}
+
+.exterior-main-box {
+    width: 100%;
+    display: flex;
+}
+
+.left-exterior-side {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    padding-bottom: 30px;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    transition: .5s ease-out;
+    justify-content: center;
+    opacity: 0;
+    padding-right: 140px;
+}
+
+.right-exterior-side-first {
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+    scroll-behavior: smooth;
+    transition: .5s ease-out;
+    background-position: center;
+    opacity: 0;
+    background-image: url("../../images/modelSimages/redGrid.jpg");
+
+}
+
+.right-exterior-side-third {
+    width: 50%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    scroll-behavior: smooth;
+    opacity: 0;
+    transition: .5s ease-out;
+    background-image: url("../../images/modelSimages/redGrid3.jpg");
+
+}
+
+.left-exterior-side2 {
+    width: 50%;
+    height: 300px;
+    transition: .5s ease-out;
+    background-size: cover;
+    scroll-behavior: smooth;
+    opacity: 0;
+    background-position: center;
+    background-image: url("../../images/modelSimages/redGrid2.jpg");
+}
+
+.right-exterior-side2 {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    padding-bottom: 30px;
+    flex-direction: column;
+    padding-left: 140px;
+    transition: .5s ease-out;
+    scroll-behavior: smooth;
+    justify-content: center;
+    opacity: 0;
+}
+
+.modelS-body-page10 {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    background-color: #000;
+}
+
+.left-video-wrapper-box {
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+
+.left-video-wrapper-box video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.features-position-box {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 0;
+}
+
+.features-position-inner-box {
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    transition: .3s ease-out;
+    scroll-behavior: smooth;
+}
+
+.right-text-wrapper-box {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: .7s ease-out;
+    background-color: #fff;
+    padding: 0px 40px;
+}
+
+.page10-text-wrapper {
+    margin-top: 170px;
+}
+
+.order-btn04 {
+    width: 200px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    color: #171a20;
+    border: 3px solid #171a20;
+    background-color: transparent;
+    transition: .2s ease-out;
+    margin: 0px auto;
+}
+
+.order-btn04:hover {
+    background-color: #171a20;
+    color: #fff;
+}
+
+.modelS-body-page11 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.inner-wrapper-box-b {
+    width: 80%;
+}
+
+.modelS-body-page12 {
+    width: 100%;
+    height: 180vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 20px 0px;
+    justify-content: space-between;
+}
+
+.swiper-carousel-container {
+    width: 95%;
+    height: 100vh;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.map-swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.destination-map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.destination-wrapper {
+    width: 830px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination-inner-info-wrapper {
+    width: 180px;
+    position: relative;
+    padding: 20px 0px 0px 0px;
+}
+
+.measure-des {
+    font-size: 28px;
+    font-weight: 500;
+    color: #A2A3A6;
+    margin-top: 20px;
+}
+
+.modelS-body-page13 {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.all-time-low {
+    width: 550px;
+    height: 100vh;
+    background-color: #fff;
+    padding: 14% 0px 0px 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.all-time-low2 {
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-image: url("../../images/modelSimages/skelaton.jpg");
+    height: 100vh;
+    position: relative;
+}
+
+.skelaton-info-div1 {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    position: relative;
+    border-radius: 50%;
+    background-color: white;
+    transform: translateY(53vh);
+    margin-left: 25%;
+}
+
+.inner-skelaton-div1 {
+    position: absolute;
+    bottom: 8px;
+    left: 1.23333px;
+    width: 3px;
+    height: 0px;
+    background-color: #000;
+    transition: .4s ease-out;
+}
+
+.inner-skelaton-div2 {
+    position: absolute;
+    top: 8px;
+    left: 1.23333px;
+    width: 3px;
+    height: 0px;
+    background-color: #000;
+    transition: .4s ease-out;
+}
+
+.skelaton-text-wrapper-box {
+    position: absolute;
+    left: 15px;
+    bottom: 70px;
+    width: 200px;
+    transition: .5s ease-out;
+}
+
+.skelaton-text-inner {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4C4E53;
+}
+
+.skelaton-info-div2 {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translateY(28vh);
+    margin-left: 46.4%;
+    position: relative;
+}
+
+.skelaton-text-wrapper-box2 {
+    position: absolute;
+    left: 15px;
+    bottom: 40px;
+    width: 200px;
+    transition: .5s ease-out;
+}
+
+.skelaton-info-div3 {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translateY(55vh);
+    margin-left: 52%;
+    position: relative;
+}
+
+.skelaton-text-wrapper-box3 {
+    position: absolute;
+    left: 15px;
+    top: 40px;
+    width: 200px;
+    transition: .5s ease-out;
+}
+
+.modelS-body-page14 {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 0px 0px 0px 3%;
+    justify-content: flex-end;
+    flex-direction: column;
+    background-image: url("../../images/modelSimages/autopilot.jpg");
+}
+
+.page14-text-wrapper-box {
+    width: 300px;
+    transition: .3s ease-out;
+    margin-bottom: 20px;
+
+}
+
+.page14-text-inner {
+    font-size: 13px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.camera-icon {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #171a20;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.inner-part-of-camera {
+    width: 100%;
+    height: 100%;
+    background-color: #171a20;
+    border-radius: 50%;
+    position: relative;
+}
+
+.white-dot-camera {
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 7px;
+}
+
+.white-dot-camera2 {
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    right: 7px;
+}
+
+.page14-bold-text {
+    font-size: 28px;
+    color: #000;
+    font-weight: 600;
+}
+
+.modelS-body-page18 {
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.swiper-video-container2 {
+    width: 95%;
+    height: 100vh;
+}
+
+.my-swiper002 {
+    width: 100%;
+    height: 100%;
+}
+
+.my-swiper002-append video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.destination-inner-info-wrapper2 {
+    width: 190px;
+    position: relative;
+}
+
+.modelS-body-page19 {
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    align-items: flex-end;
+    background-color: #000;
+}
+
+.page19-modelS-black {
+    width: 50%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-image: url("../../images/modelSimages/black.jpg");
+}
+
+.page19-modelS-black-text {
+    width: 50%;
+    height: 650px;
+    transition: .4s ease-out;
+}
+
+.specs-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.modelS-specS-text {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.modelS-page19-features-main {
+    width: 500px;
+    display: flex;
+}
+
+.modelS-page19-features-left-box {
+    width: 50%;
+    height: 100%;
+}
+
+.modelS-page19-features-right-box {
+    width: 50%;
+    height: 100%;
+}
+
+.modelS-page19-feature-box-info {
+    width: 230px;
+    padding: 20px 0px 20px 0px;
+    position: relative;
+}
+
+.page19-modelS-specs-text01 {
+    font-size: 28px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.page19-modelS-specs-text01 span {
+    font-weight: 400;
+}
+
+.modelS-page19-btn {
+    width: 97%;
+    height: 35px;
+    border-radius: 20px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 5000;
+    margin-bottom: 20px;
+}
+
+.page19-left-text01 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.page19-left-def-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.line-modelS-page19 {
+    width: 50px;
+    height: 1px;
+    background-color: #8E8E8E;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+.modelS-body-page20 {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+}
+
+.left-page20-wrapper {
+    width: 50%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.all-page20-box {
+    width: 450px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.how-type002 {
+    font-size: 28px;
+    font-weight: 600;
+    scroll-behavior: smooth;
+    color: #171a20;
+    margin-left: 20px;
+}
+
+.page20-btn-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.right-page20-wrapper{
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../../images/modelSimages/whiteTesla.jpg");
+}
+.modelS-footer{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px 0px 30px 0px;
+    align-items: center;
+}
+.modelS-footer-text{
+    width: 650px;
+    text-align: center;
+}
+.footer-modelS-text-with-link, .footer-text-models-nav{
+    font-size: 13px;
+    font-weight: 500;
+    color: #5c5e62;
+}
+.footer-modelS-text-with-link span{
+    position: relative;
+    cursor: pointer;
+}
+.footer-modelS-text-with-link span::after{
+    width: 100%;
+    content: "";
+    position: absolute;
+    height: 1px;
+    background-color: #000;
+    bottom: -2px;
+    left: 0px;
+    transition: 1s ease-out;
+}
+.footer-modelS-text-with-link span:hover::after{
+    box-shadow: 0px 1px 1px #000;
+    cursor: pointer;
+}
+
+.modelS-footer-text-nav{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}

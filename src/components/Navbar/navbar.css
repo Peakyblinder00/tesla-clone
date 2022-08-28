@@ -1,0 +1,463 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    justify-content: space-between;
+    padding: 0px 25px;
+    left: 0;
+    position: relative;
+}
+.homePage-path svg{
+    width: 140px;
+    height: 50px;
+}
+.collection{
+    display: flex;
+    align-items: center;
+    position: relative;
+    list-style-type: none;
+}
+
+
+.collection a:nth-child(6){
+    padding-right: 65px;
+}
+.collection a:nth-child(7){
+    padding-left: 65px;
+}
+.collection a{
+    font-size: 14.78px;
+    font-weight: 600;
+    color: #393c41;
+    text-decoration: none;
+    padding: 0px 15px;
+    height: 32px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+.li-in-collection{
+    font-size: 14.78px;
+    font-weight: 600;
+    color: #393c41;
+    text-decoration: none;
+    padding: 0px 15px;
+    height: 32px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+.move{
+    width: 90px;
+    height: 32px;
+    z-index: -1;
+    position: absolute;
+    background-color: hsla(0, 0%, 0%, .05);
+    border-radius: 12px;
+    left: 0px;
+    opacity: 0;
+    transition: ease-in-out .5s;
+    backdrop-filter: blur(8px);
+}
+.collection a:first-child:hover ~ .move{
+    left: 0px;
+    width: 90px;
+    transition-delay: .2s;
+    opacity: 1;
+
+}
+.collection a:nth-child(2):hover ~ .move{
+    width: 90px;
+    transition-delay: .2s;
+    left: 90.44px;
+    opacity: 1;
+}
+.collection a:nth-child(3):hover ~ .move{
+    width: 90px;
+    left: 181px;
+    transition-delay: .2s;
+    opacity: 1;
+}
+.collection a:nth-child(4):hover ~ .move{
+    width: 90px;
+    left: 272px;
+    opacity: 1;
+    transition-delay: .2s;
+}
+.collection a:nth-child(5):hover ~ .move{
+    width: 120px;
+    left: 358px;
+    opacity: 1;
+    transition-delay: .2s;
+}
+.collection a:nth-child(6):hover ~ .move{
+    width: 130px;
+    left: 467px;
+    transition-delay: .2s;
+    opacity: 1;
+}
+.collection a:nth-child(7):hover ~ .move{
+    width: 80px;
+    left: 688px;
+    transition-delay: .2s;
+    opacity: 1;
+}
+
+.collection a:nth-child(8):hover ~ .move{
+    width: 100px;
+    left: 760px;
+    transition-delay: .2s;
+    opacity: 1;
+}
+.collection li:nth-child(9):hover ~ .move{
+    width: 80px;
+    left: 855px;
+    transition-delay: .2s;
+    opacity: 1;
+}
+.menu-block-btn{
+    padding: 15px;
+    height: 32px;
+    display: none;
+    align-items: center;
+    background-color: hsla(0, 0%, 0%, .05);
+    border-radius: 12px;
+    font-size: 14.78px;
+    font-weight: 600;
+    color: #393c41;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1300px){
+    .collection a:nth-child(6){
+        padding-right: 50px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 674px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 747px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 835px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+@media only screen and (max-width: 1270px){
+    .collection a:nth-child(6){
+        padding-right: 40px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 664px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 735px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 829px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+@media only screen and (max-width: 1250px){
+    .collection a:nth-child(6){
+        padding-right: 30px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 654px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 725px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 819px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .collection{
+      display: none;
+    }
+    .menu-block-btn{
+        display: flex;
+    }
+  }
+@media only screen and (min-width: 1380px){
+    .collection a:nth-child(6){
+        padding-right: 95px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 720px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 790px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 884px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+@media only screen and (min-width: 1400px){
+    .collection a:nth-child(6){
+        padding-right: 110px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 735px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 805px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 900px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+@media only screen and (min-width: 1435px){
+    .collection a:nth-child(6){
+        padding-right: 125px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 750px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 820px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 915px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+@media only screen and (min-width: 1465px){
+    .collection a:nth-child(6){
+        padding-right: 145px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 770px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 842px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 934px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 1500px){
+    .collection a:nth-child(6){
+        padding-right: 160px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 785px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 857px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 949px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+@media only screen and (min-width: 1540px){
+    .collection a:nth-child(6){
+        padding-right: 180px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 805px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 877px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 969px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 1570px){
+    .collection a:nth-child(6){
+        padding-right: 195px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 820px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 892px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 984px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .collection a:nth-child(6){
+        padding-right: 210px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 835px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 907px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 999px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+@media only screen and (min-width: 1620px){
+    .collection a:nth-child(6){
+        padding-right: 220px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 845px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 917px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 1009px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+@media only screen and (min-width: 1660px){
+    .collection a:nth-child(6){
+        padding-right: 240px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 865px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 937px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 1029px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}
+@media only screen and (min-width: 1700px){
+    .collection a:nth-child(6){
+        padding-right: 270px;
+    }
+    .collection a:nth-child(7):hover ~ .move{
+        width: 80px;
+        left: 895px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection a:nth-child(8):hover ~ .move{
+        width: 100px;
+        left: 967px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+    .collection li:nth-child(9):hover ~ .move{
+        width: 80px;
+        left: 1059px;
+        transition-delay: .2s;
+        opacity: 1;
+    }
+}

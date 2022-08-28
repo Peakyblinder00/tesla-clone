@@ -1,0 +1,132 @@
+.impact-page-navbar {
+    width: 100%;
+    height: 58px;
+    position: fixed;
+    transition: ease .3s;
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.collection01 {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    position: relative;
+}
+
+.collection01 a {
+    font-size: 14.78px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0px 15px;
+    height: 32px;
+    transition: .3s;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+
+.collection01 a:nth-child(4) {
+    padding-right: 11pc;
+}
+
+.collection01 li {
+    padding-left: 11pc;
+}
+
+.language-button {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    cursor: pointer;
+    height: 32px;
+}
+
+.language-button p {
+    font-size: 14.78px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.homePage-path-impact svg {
+    width: 140px;
+    height: 50px;
+    margin-top: 5px;
+    transition: .3s;
+}
+
+.language-button svg {
+    font-size: 20px;
+    margin-right: 10px;
+    transition: .8s;
+}
+
+.impactPage-path {
+    text-decoration: none;
+    font-size: 14.78px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.stick {
+    width: 1px;
+    height: 20px;
+    transition: .3s;
+    margin: 0px 20px;
+}
+
+.move2 {
+    width: 90px;
+    height: 32px;
+    position: absolute;
+    background-color: hsla(0, 0%, 100%, .2);
+    border-radius: 12px;
+    left: 0px;
+    opacity: 0;
+    z-index: -1;
+    transition: ease-in-out .5s;
+    backdrop-filter: blur(8px);
+}
+
+.collection01 a:first-child:hover ~ .move2 {
+    left: 0px;
+    width: 90px;
+    transition-delay: .2s;
+    opacity: 1;
+}
+
+.collection01 a:nth-child(2):hover~.move2 {
+    left: 80px;
+    width: 135px;
+    transition-delay: .2s;
+    opacity: 1;
+}
+
+.collection01 a:nth-child(3):hover~.move2 {
+    left: 208px;
+    width: 140px;
+    transition-delay: .2s;
+    opacity: 1;
+}
+
+.collection01 a:nth-child(4):hover~.move2 {
+    left: 340px;
+    width: 99px;
+    transition-delay: .2s;
+    opacity: 1;
+}
+
+.collection01 li:hover~.move2 {
+    left: 48.6pc;
+    width: 75px;
+    transition-delay: .2s;
+    opacity: 1;
+}

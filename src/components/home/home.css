@@ -1,0 +1,163 @@
+.home-page{
+    width: 100%;
+    position: relative;
+
+}
+.brand-top{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+}
+.impact{
+    color: #393c41;
+    font-size: 14.45px;
+    font-weight: 500;
+    letter-spacing: 0.44px;
+    text-decoration: none;
+    position: relative;
+}
+.impact::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #393c41;
+    transition: .5s;
+}
+.impact:hover::after{
+    box-shadow: 0px 1px 1px #00050e;
+}
+.model3-home-page{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    scroll-behavior: smooth;
+    background-position: center;
+    background-image: url('../../images/M3-Homepage-Desktop-LHD.jpg');
+}
+.modelY-home-page{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    scroll-behavior: smooth;
+    background-position: center;
+    background-image: url('../../images/Desktop-ModelY.jpg');
+}
+.modelS-home-page{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    scroll-behavior: smooth;
+    background-position: center;
+    background-image: url('../../images/Homepage-Model-S-Desktop-LHD.jpg');
+}
+.modelX-home-page{
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../images/Homepage-Model-X-Desktop-LHD.jpg');
+}
+.solorPanels-home-page{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    scroll-behavior: smooth;
+    background-position: center;
+    background-image: url('../../images/_25-HP-SolarPanels-D.jpg');
+}
+.solorRoof-home-page{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    scroll-behavior: smooth;
+    background-image: url('../../images/Homepage-SolarRoof-Desktop-Global.jpg');
+}
+.model-wrapper-box{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 110px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.modelP{
+    font-size: 40px;
+    color: #171a20;
+    font-weight: 500;
+    text-shadow: 0px 0px 1px black;
+}
+.homePage-path{
+    text-decoration: none;
+}
+.deliver{
+    font-size: 14.78px;
+    color: #393c41;
+    font-weight: 500;
+    margin-top: 8px;
+}
+.support-page-path{
+    font-size: 14.78px;
+    color: #393c41;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+}
+.support-page-path::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #393c41;
+    transition: .5s;
+}
+.support-page-path:hover::after{
+    box-shadow: 0px 1px 1px #00050e;
+}
+
+.button-box{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 110px;
+    display: flex;
+    justify-content: center;
+}
+.custom-btn{
+    width: 260px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    color: rgb(244, 244, 244);
+    background-color: rgba(23, 26, 32, 0.8);
+    margin-right: 15px;
+    backdrop-filter: blur(8px);
+}
+.inventory-btn{
+    background-color: rgba(244, 244, 244, 0.65);
+    width: 260px;
+    margin-left: 15px;
+    border-radius: 20px;
+    color: #393c41;
+    font-size: 13px;
+    backdrop-filter: blur(8px);
+    font-weight: 500;
+    text-transform: uppercase;
+    height: 40px;
+    border: none;
+}
